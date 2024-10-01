@@ -1,6 +1,5 @@
 package ru.toylep.samsungmobile.ui.components.profile
 
-import android.content.Context
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -20,10 +19,7 @@ import androidx.compose.ui.unit.dp
 import ru.toylep.samsungmobile.R
 import ru.toylep.samsungmobile.domain.services.LocalStorage
 import ru.toylep.samsungmobile.domain.services.viewmodels.ProjectTaskViewModel
-import ru.toylep.samsungmobile.domain.services.viewmodels.ProjectViewModel
-import ru.toylep.samsungmobile.domain.states.ProjectListState
 import ru.toylep.samsungmobile.domain.states.ProjectTaskListState
-import ru.toylep.samsungmobile.ui.components.project.ProjectCard
 import ru.toylep.samsungmobile.ui.components.project.ProjectTaskCard
 import ru.toylep.samsungmobile.utils.ui.GifImage
 

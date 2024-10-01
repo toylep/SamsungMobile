@@ -16,10 +16,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Dialog
-import ru.toylep.samsungmobile.domain.models.Project
 import ru.toylep.samsungmobile.domain.models.User
 import ru.toylep.samsungmobile.ui.components.profile.UserCard
 import ru.toylep.samsungmobile.utils.ui.SquaredButton
+
 @Composable
 fun UserCardDialog(showPopup: MutableState<Boolean>, user: User) {
     Dialog(
